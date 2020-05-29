@@ -1,0 +1,28 @@
+/* CSS for index.html */
+body {
+    background-image: url(https://img.freepik.com/free-photo/full-frame-white-texture-rough-background_23-2147885704.jpg?size=626&ext=jpg);
+}
+
+.name {
+    background-color:#48C9B0;
+    padding: 10px;
+    margin: 0;
+}
+
+img {
+    max-width:200px;
+    height:200px;
+}
+
+section {
+    position: center;
+    width:50%;
+}
+
+footer {
+    background-color: gray;
+}
+
+p {
+    text-align:center;
+}
