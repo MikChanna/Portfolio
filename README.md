@@ -6,14 +6,14 @@ In this homework assigment, I build a responsive portfolio that is viewable and 
 
 
 Website at 980px
-![Getting Started](./images/images980.jpg)
+![Getting Started](images/image980.jpg)
 
 
 Website at 768px
-![Getting Started](./images/images768.jpg)
+![Getting Started](images/image768.jpg)
 
 Website at 640px
-![Getting Started](./images/images640.jpg)
+![Getting Started](images/image640.jpg)
 
 https://mikchanna.github.io/Responsive-Portfolio/
 
