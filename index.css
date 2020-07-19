@@ -19,8 +19,14 @@ body {
   color: #0066ff;
 }
 
+.logo {
+  width: 150px;
+  height: 150px;
+}
+
 h1 {
-  line-height: 300px;
+  padding-top: 50px;
+  font-family: "Arima Madurai", cursive;
 }
 
 .nav-link::after {
@@ -65,7 +71,7 @@ hr {
   width: 50%;
 }
 
-img {
+.card-img-top {
   max-width: 200px;
   height: 200px;
 }
