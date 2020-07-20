@@ -1,96 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
-    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-    <link rel="stylesheet" href="index.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
 
     <title>Channa Mik Carlson - Contact Me</title>
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <!-- Start Navbar -->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <span class="text navbar-brand mb-1 h1 col-lg-3 col-md-4 col-sm-12-center">Channa Mik Carlson</span>
-        <ul class="nav navbar-right">
-            <li class="nav-item">
-                <a class="text nav-link" href="index.html">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="text nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="text nav-link" href="contact.html">Contact</a>
-            </li>
-        </ul>
-    
+    <nav class="navbar navbar-expand-lg">
+      <ul class="nav navbar-right">
+        <li class="nav-item">
+          <a class="text nav-link" href="index.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="text nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="text nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
     </nav>
     <!-- End Navbar -->
 
     <!-- start contact form -->
 
     <div class="container" id="form-box">
-        <div class="row">
-          <div class="col-lg-6 col-md-offset-3">
-            <div class="well well-sm">
-              <fieldset>
-                  <legend class="text-left text">Contact us</legend>
-            
-                <hr>
-                <!-- Name input-->
-                  <form class="form-group">
-                    <label class="col-lg-6 control-label" for="name">Name</label>
-                      <div class="col-md-9">
-                        <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
-                      </div>
-                  </form>
-        
-                <!-- Email input-->
-                  <form class="form-group">
-                      <label class="col-lg-6 control-label" for="email">E-mail</label>
-                      <div class="col-md-9">
-                        <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
-                      </div>
-                  </form>
-        
-                <!-- Message body -->
-                  <form class="form-group">
-                    <label class="col-lg-6 control-label" for="message">Your message</label>
-                    <div class="col-md-9">
-                      <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
-                    </div>
-                  </form>
-        
-                <!-- Form actions -->
-                  <form class="form-group">
-                      <div class="col-lg-6 text-right">
-                        <button type="submit" class="btn btn-info btn-md">Submit</button>
-                      </div>
-                  </form>
-              </fieldset>
-            </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="well well-sm">
+            <fieldset>
+              <legend class="text-left text header">Contact us</legend>
+
+              <hr />
+              <!-- Name input-->
+              <form class="form-group">
+                <label class="col-lg-6 control-label" for="name">Name</label>
+                <div class="col-md-9">
+                  <input
+                    id="name"
+                    name="name"
+                    type="text"
+                    placeholder="Your name"
+                    class="form-control"
+                  />
+                </div>
+              </form>
+
+              <!-- Email input-->
+              <form class="form-group">
+                <label class="col-lg-6 control-label" for="email">E-mail</label>
+                <div class="col-md-9">
+                  <input
+                    id="email"
+                    name="email"
+                    type="text"
+                    placeholder="Your email"
+                    class="form-control"
+                  />
+                </div>
+              </form>
+
+              <!-- Message body -->
+              <form class="form-group">
+                <label class="col-lg-6 control-label" for="message"
+                  >Your message</label
+                >
+                <div class="col-md-9">
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    name="message"
+                    placeholder="Please enter your message here..."
+                    rows="5"
+                  ></textarea>
+                </div>
+              </form>
+
+              <!-- Form actions -->
+              <form class="form-group">
+                <div class="col-lg-6 text-right">
+                  <button type="submit" class="btn btn-info btn-md">
+                    Submit
+                  </button>
+                </div>
+              </form>
+            </fieldset>
           </div>
         </div>
+      </div>
     </div>
 
-<!-- end contact form -->
+    <!-- end contact form -->
     <!-- Start footer -->
 
-    <footer id="footer" class="py-4 bg-dark text-white-50 col-lg-12">
+    <footer class="footer mt-auto py-3 bg-dark text-white-50">
       <div class="container">
-          <span class="text-muted">Copyright &copy; Channa Mik Carlson</span>
+        <span class="text-muted">Copyright Channa Mik Carlson</span>
       </div>
     </footer>
 
-
-
     <!-- End Footer -->
-</body>
+  </body>
 </html>

@@ -87,6 +87,7 @@ section {
 
 footer {
   text-align: center;
+  position: fixed;
   bottom: 0;
   width: 100%;
   height: 60px;
@@ -97,8 +98,16 @@ footer {
 /* CSS for contact.html */
 
 #form-box {
-  background-color: #fff;
+  background-color: #0066ff;
   margin: 20px;
+}
+
+.header {
+  padding-top: 20px;
+}
+
+legend {
+  width: 75%;
 }
 
 /* End of contact.html */
