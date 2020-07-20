@@ -5,9 +5,10 @@ body {
   color: white;
 }
 
-.text {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+.text,
+.card-text,
+.card-title {
+  font-family: "Arima Madurai", cursive;
   color: white;
   text-align: center;
 }
@@ -50,9 +51,10 @@ h1 {
 h5,
 h2,
 legend {
-  color: #48c9b0;
+  color: white;
   font-weight: bold;
   font-size: 24px;
+  font-family: "Arima Madurai", cursive;
 }
 
 hr {
