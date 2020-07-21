@@ -115,20 +115,8 @@ legend {
   width: 75%;
 }
 
-.contactDiv {
-  position: relative;
-}
-
-.contactImage1 {
-  position: absolute;
-  bottom: 10px;
-  right: 0;
-}
-
-.contactImage2 {
-  position: absolute;
-  bottom: 10px;
-  left: 0;
+.linkdiv {
+  margin-top: -20px;
 }
 /* End of contact.html */
 
