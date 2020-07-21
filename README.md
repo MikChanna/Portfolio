@@ -1,10 +1,18 @@
-# Responsive-Portfolio
+# Portfolio
 
------Description-----
+A simple, yet resposive website to showcase my top 3 projects so far.  The webpage includes a functional navigation bar that will link to an "About Me" page, a portfolio page, and a contact page.  My resume and important links are inlcuded.  The portfolio page has a carousel component that displays the project and if the user clicks on the title it will open up the website in another window.
 
-In this homework assigment, I build a responsive portfolio that is viewable and functionsal on any device at varying screen widths.  At width 980px, 768px, and 640px the elements on the page should align differently.  The webpage includes a functional navigation bar that will link to an "About Me" page, a portfolio page, and a contact page.  The website was built using the grid layout and other helpful components from bootstrap.
+Screenshots:
+
+##About Me
 
 
-https://mikchanna.github.io/Responsive-Portfolio/
+##Portfolio
+
+
+##Contact Page
+
+
+https://mikchanna.github.io/Portfolio/
 
 Copyright 2020 Channa Mik Carlson
