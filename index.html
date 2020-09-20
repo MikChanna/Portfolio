@@ -69,7 +69,7 @@
       </section>
     </div>
     <!--End About Me Card  -->
-    <div class = "portfolio container center">
+    <div class = "container center" id ="portfolio">
       <h1>Portfolio</h1>
       <div class = "row">
         <div class = "col">
@@ -121,9 +121,9 @@
     <!-- start contact form -->
     <section class="mb-4">
     <!--Section heading-->
-    <h2 class="h1-responsive font-weight-bold text-center my-4">
+    <h1 class="h1-responsive font-weight-bold text-center my-4" id = "contactme">
       Contact Me
-    </h2>
+    </h1>
 
     <div class="row">
       <!--Grid column-->
@@ -131,52 +131,45 @@
         <form
           id="contact-form"
           name="contact-form"
-          action="mail.php"
+          action="mailto:channa.mik@gmail.com"
           method="POST"
+          enctype = "text/plain"
         >
           <!--Grid row-->
           <div class="row">
             <!--Grid column-->
             <div class="col-md-6">
+              
               <div class="md-form mb-0">
+                <label for="name" class="">Your name</label>
                 <input
                   type="text"
                   id="name"
                   name="name"
+                  placeholder = "Your name.."
                   class="form-control"
                 />
-                <label for="name" class="">Your name</label>
+              
               </div>
             </div>
-            <!--Grid column-->
 
-            <!--Grid column-->
-            <div class="col-md-6">
-              <div class="md-form mb-0">
-                <input
-                  type="text"
-                  id="email"
-                  name="email"
-                  class="form-control"
-                />
-                <label for="email" class="">Your email</label>
-              </div>
-            </div>
-            <!--Grid column-->
+
+            
           </div>
-          <!--Grid row-->
+         
 
           <!--Grid row-->
           <div class="row">
             <div class="col-md-12">
               <div class="md-form mb-0">
-                <input
-                  type="text"
+                <label for="subject" >Subject</label>
+                <textarea
                   id="subject"
                   name="subject"
+                  placeholder = "Write something..."
                   class="form-control"
-                />
-                <label for="subject" class="">Subject</label>
+                ></textarea>
+                
               </div>
             </div>
           </div>
@@ -187,31 +180,29 @@
             <!--Grid column-->
             <div class="col-md-12">
               <div class="md-form">
+                <label for="message">Your message</label>
                 <textarea
                   type="text"
                   id="message"
                   name="message"
                   rows="2"
+                  placeholder = "Write something..."
                   class="form-control md-textarea"
                 ></textarea>
-                <label for="message">Your message</label>
+                
               </div>
             </div>
           </div>
           <!--Grid row-->
+          <br>
+          <div class="text-center text-md-left">
+            <input class = "btn btn-primary" type = "submit" value = "Send">
+          </div>
+
         </form>
 
-        <div class="text-center text-md-left">
-          <a
-            class="btn btn-primary"
-            onclick="document.getElementById('contact-form').submit();"
-            >Send</a
-          >
-        </div>
-
-        <div class="status"></div>
       </div>
-      <!--Grid column-->
+  
 
       <!--Grid column-->
       <div class="col-md-3 text-center linkdiv">
