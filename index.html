@@ -46,33 +46,240 @@
     <!-- Start About Me Card -->
 
     <div class="container">
-      <section class="card center w-75">
-        <div class="card-body col">
-          <h5 class="text card-title">About Me</h5>
+      <section class="card center">
+       
+          <h5 class="card-title">About Me</h5>
 
           <hr />
 
           <img
-            src="https://media-exp1.licdn.com/dms/image/C5603AQEuPe_RCiiNXg/profile-displayphoto-shrink_200_200/0?e=1603929600&v=beta&t=0OC2QbE7zI15NsoYN5PIv_6v40F7v00SPKbBINmAXVc"
-            class="card-img-top center"
+            src="./Images/Channa.jpg"
+            class="cardImage center"
             alt="picture of Channa"
           />
           <p class="card-text">
-            I am studying to become a full stack developer. It is my goal to
-            bring the design and layout of a website to life for everyone to
-            view and enjoy. I enjoy designs that draw the viewers eyes to page
-            and keeps them there. I would love to design pages for all types of
-            content however, art, tech, music, and philanthropy would be my
-            favorites to work with. I am humbly confident, curious, and always
-            looking to improve.
+            I am an ambitious full stack developer who has a background in non-profits with experience in volunteer management.  The design and aesthetics is what I enjoy most about web development, but I've come to appreciate the logic that works behind the webpages.  I've worked on various teams with an assortment of folks so I am prompt and detailed in communication and can work flexibly with others or on my own.  It is my goal to design pages for all types of
+            content especially for art, technology, music, and philanthropy.  I am humbly confident, curious, and always
+            looking for ways to improve.  
           </p>
           <a class="center text" href="./Images/channa.mik.carlson.resume.pdf">
             Click here to see resume</a
           >
-        </div>
+      
       </section>
     </div>
     <!--End About Me Card  -->
+    <div>
+      <h1 class="center">Portfolio</h1>
+      <!-- start carousel -->
+      <div id="myCarousel" class="carousel slide center">
+        <ol class="carousel-indicators">
+          <li class="carousel-item1 active"></li>
+          <li class="carousel-item2"></li>
+          <li class="carousel-item3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./Images/instock.png"
+              class="d-block w-100"
+              alt="instock screenshot"
+              class="cImage"
+            />
+            <div class="carousel-caption">
+              <a href="https://mikchanna.github.io/Stock-Price-Alerts/"
+                ><h5>InStock</h5></a
+              >
+              <p>An application for track trending stocks</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./Images/weatherdashboard.png"
+              class="d-block w-100"
+              alt="weather dashboard screenshot"
+              class="cImage"
+            />
+            <div class="carousel-caption">
+              <a href="https://mikchanna.github.io/Weather-Dashboard/"
+                ><h5>Weather Dashboard</h5></a
+              >
+              <p>A responsive and easy to use weather dashboard</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./Images/passwordgenerator.png"
+              class="d-block w-100"
+              alt="password generator screenshot"
+              class="cImage"
+            />
+            <div class="carousel-caption">
+              <a href="https://mikchanna.github.io/Password-Generator/"
+                ><h5>Password Generator</h5></a
+              >
+              <p>Easy to use password generator - up to 150 characters</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./Images/BurgerApp.png"
+              class="d-block w-100"
+              alt="burger app screenshot"
+              class="cImage"
+            />
+            <div class="carousel-caption">
+              <a href="https://enigmatic-ridge-19818.herokuapp.com/"
+                ><h5>Eat-Da-Burger</h5></a
+              >
+              <p>Burger App using node, express, SQL</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="left">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button">
+          <span class="right">Next</span>
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+      </div>
+    </div>
+    <!-- End carousel -->
+
+<!-- start contact form -->
+<section class="mb-4">
+  <!--Section heading-->
+  <h2 class="h1-responsive font-weight-bold text-center my-4">
+    Contact Me
+  </h2>
+
+  <div class="row">
+    <!--Grid column-->
+    <div class="col-md-9 mb-md-0 mb-5">
+      <form
+        id="contact-form"
+        name="contact-form"
+        action="mail.php"
+        method="POST"
+      >
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-md-6">
+            <div class="md-form mb-0">
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="form-control"
+              />
+              <label for="name" class="">Your name</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-6">
+            <div class="md-form mb-0">
+              <input
+                type="text"
+                id="email"
+                name="email"
+                class="form-control"
+              />
+              <label for="email" class="">Your email</label>
+            </div>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+
+        <!--Grid row-->
+        <div class="row">
+          <div class="col-md-12">
+            <div class="md-form mb-0">
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                class="form-control"
+              />
+              <label for="subject" class="">Subject</label>
+            </div>
+          </div>
+        </div>
+        <!--Grid row-->
+
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-md-12">
+            <div class="md-form">
+              <textarea
+                type="text"
+                id="message"
+                name="message"
+                rows="2"
+                class="form-control md-textarea"
+              ></textarea>
+              <label for="message">Your message</label>
+            </div>
+          </div>
+        </div>
+        <!--Grid row-->
+      </form>
+
+      <div class="text-center text-md-left">
+        <a
+          class="btn btn-primary"
+          onclick="document.getElementById('contact-form').submit();"
+          >Send</a
+        >
+      </div>
+
+      <div class="status"></div>
+    </div>
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-md-3 text-center linkdiv">
+      <ul class="list-unstyled mb-0">
+        <li>Channa Mik Carlson</li>
+        <br>
+        <li>channa.mik@gmail.com</li>
+        <br>
+        </li>
+        <li>
+          <a href="https://linkedin.com/in/channamik" target="_blank">
+            <img
+              src="./Images/linkedin.jpeg"
+              alt="linkedIn logo"
+              width="75"
+              height="75"
+            />
+          </a>
+        </li>
+        <br />
+
+        <li>
+          <a href="https://github.com/MikChanna" target="_blank">
+            <img
+              src="./Images/github.png"
+              alt="github logo"
+              width="75"
+              height="75"
+            />
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!--Grid column-->
+  </div>
+</section>
+
+<!-- end contact form -->
 
     <!-- Start footer -->
 
