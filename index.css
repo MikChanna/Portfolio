@@ -48,7 +48,6 @@ h1 {
   background-color: #0066ff;
 }
 
-h5,
 h2,
 legend {
   color: white;
@@ -98,6 +97,12 @@ footer {
 }
 a:hover {
   background-color: black;
+}
+
+.photo {
+  width: 300px;
+  height: 300px;
+  padding: 20px;
 }
 /* End of CSS for index.html */
 
