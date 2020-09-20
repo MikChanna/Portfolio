@@ -110,7 +110,7 @@ a:hover {
   border-radius: 5px;
   display: block;
 }
-.col:hover .overlay {
+.col-sm-4:hover .overlay {
   opacity: 1;
 }
 
