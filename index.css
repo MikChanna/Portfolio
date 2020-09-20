@@ -26,8 +26,9 @@ body {
 }
 
 h1 {
-  padding-top: 50px;
+  margin-top: 50px;
   font-family: "Arima Madurai", cursive;
+  text-align: center;
 }
 
 .nav-link::after {
@@ -141,6 +142,10 @@ a:hover {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.contactme {
+  padding: 50px;
 }
 /* End of CSS for index.html */
 
